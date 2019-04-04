@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * [CustomCommands.cs](./CS/DXPivotGrid_CustomContextMenu/CustomCommands.cs) (VB: [CustomCommands.vb](./VB/DXPivotGrid_CustomContextMenu/CustomCommands.vb))
-* [MainWindow.xaml](./CS/DXPivotGrid_CustomContextMenu/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/DXPivotGrid_CustomContextMenu/MainWindow.xaml.vb))
+* [MainWindow.xaml](./CS/DXPivotGrid_CustomContextMenu/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/DXPivotGrid_CustomContextMenu/MainWindow.xaml))
 * [MainWindow.xaml.cs](./CS/DXPivotGrid_CustomContextMenu/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/DXPivotGrid_CustomContextMenu/MainWindow.xaml.vb))
 <!-- default file list end -->
 # How to create custom context menu items using pivot grid commands
