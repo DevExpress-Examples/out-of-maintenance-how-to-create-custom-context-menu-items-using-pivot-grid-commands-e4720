@@ -1,5 +1,4 @@
-﻿Imports Microsoft.VisualBasic
-Imports System.Windows
+﻿Imports System.Windows
 Imports System.Windows.Input
 Imports DevExpress.Xpf.PivotGrid
 Imports DXPivotGrid_CustomContextMenu.nwindDataSetTableAdapters
@@ -7,6 +6,7 @@ Imports DXPivotGrid_CustomContextMenu.nwindDataSetTableAdapters
 Namespace CustomContextMenu
 	Partial Public Class MainWindow
 		Inherits Window
+
 		Public Sub New()
 			InitializeComponent()
 			Dim salesPersonDataAdapter As New SalesPersonTableAdapter()
@@ -14,7 +14,7 @@ Namespace CustomContextMenu
 		End Sub
 
 		Private Sub CommandBinding_Executed_1(ByVal sender As Object, ByVal e As ExecutedRoutedEventArgs)
-			pivotGridControl1 = CType(sender, PivotGridControl)
+			pivotGridControl1 = DirectCast(sender, PivotGridControl)
 			Clipboard.SetText(pivotGridControl1.GetFocusedCellInfo().Value.ToString())
 		End Sub
 
